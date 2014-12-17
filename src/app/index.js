@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('angkyut', ['ngAnimate', 'ngTouch', 'ngResource', 'ui.router', 'mgcrea.ngStrap'])
+angular.module('angkyut', ['ngAnimate', 'ngTouch', 'ngResource', 'ui.router', 'mgcrea.ngStrap', 'angular-google-analytics'])
   .config(function ($stateProvider, $urlRouterProvider) {
     $stateProvider
       .state('home', {
